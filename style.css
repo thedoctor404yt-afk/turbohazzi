@@ -20,13 +20,19 @@ h1 {
 
 li, a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: #f4d58d;
     text-decoration: none;
     display: inline-block;
     padding: 0px 20px;
     transition: all 0.5s ease;
+}
+
+li:hover{
+    border-radius: 10%;
+    zoom: 1.1;
+    background-color: #720600;
 }
 
 li, a:hover{
@@ -89,6 +95,7 @@ footer {
     position: fixed;
     color: #8d0801;
     background-color: #f4d58d;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
