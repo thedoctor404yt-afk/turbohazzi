@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./file/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4d58d;
+    
+}
+
+li, a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f4d58d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.5s ease;
+}
+
+li, a:hover{
+    color: white;
+}
+
+header {
+    display: flex;
+    background-color: #8d0801;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.navbar_links {
+    list-style: none;
+}
+
+.buttons {
+    padding-top: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%
+}
+
+.button1, .button2{
+    height: 160px;
+    width: 320px;
+    color: #f4d58d;
+    border-radius: 60px;
+    border: 1px solid #8d0801;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #708d81;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 97%;
+}
+
+.button1:hover, .button2:hover {
+  color: white;
+  background-color: #001427;
+  border-radius: 40px;
+  zoom:1.1;
+}
+
+.button1:active, .button2:active {
+  box-shadow: darkred 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    color: #8d0801;
+    background-color: #f4d58d;
+}
+
+@media only screen and (max-width: 600px) {
+
+        header {
+        display: flex;
+        background-color: #8d0801;
+        justify-content: space-between;
+        align-items:center;
+        padding: 20px 5%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin: 10px;
+        padding: 100px;
+    }
+
+
+}
