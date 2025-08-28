@@ -32,7 +32,7 @@ li, a{
 li:hover{
     border-radius: 10%;
     zoom: 1.1;
-    background-color: #720600;
+
 }
 
 li, a:hover{
@@ -51,8 +51,31 @@ header {
     list-style: none;
 }
 
+.testo {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 15% 0 15%;
+    border: 2px solid #001427;
+    padding: 50px;
+    background-color: #f4d58dbd;
+    border-radius: 25px;
+    
+}
+
+.titolo {
+    color: #001427;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 .buttons {
-    padding-top: 35vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -117,5 +140,14 @@ footer {
         padding: 100px;
     }
 
+    .testo {
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    footer {
+        font-size: 22px;
+    }
 
 }
